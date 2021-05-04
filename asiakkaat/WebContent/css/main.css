@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: Verdana, sans-serif;
+}
+
+table {
+	text-align: left;
+	border-collapse: collapse;
+}
+
+th {
+	padding: 7px;
+	color: white;
+	background-color: green;
+	border: 1px solid linen;
+}
+
+td {
+	padding: 7px;
+	border: 1px solid black;
+}
+
+tr:nth-child(even) {
+	background: #CCC
+}
+
+tr:nth-child(odd) {
+	background: #FFF
+}
+
+.oikealle {
+	text-align: right;
+}
+
+#uusiAsiakas, #takaisin {
+	color: white;	
+	cursor: pointer;	
+}
+
+.poista {
+	color: red;
+	text-decoration: underline;
+	cursor: pointer;	
+}
