@@ -35,7 +35,8 @@ tr:nth-child(odd) {
 
 #uusiAsiakas, #takaisin {
 	color: white;	
-	cursor: pointer;	
+	cursor: pointer;
+	text-decoration: none;
 }
 
 .poista {
